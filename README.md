@@ -20,10 +20,6 @@ Sistema completo de gestión inmobiliaria desarrollado con Laravel 10 y PostgreS
 - **PostgreSQL 13+**
 - **Eloquent ORM**
 
-### Frontend (Pendiente):
-- **Next.js** o **Angular** (por implementar)
-- **TypeScript**
-- **TailwindCSS**
 
 ## 📋 Prerrequisitos
 
@@ -209,15 +205,6 @@ npm run dev
 }
 ```
 
-## 🧪 Pruebas y Desarrollo
-
-### **Ejecutar pruebas**
-```bash
-php artisan test
-```
-
-### **Generar datos de prueba**
-```bash
 # Recrear base de datos con datos frescos
 php artisan migrate:fresh --seed
 ```
