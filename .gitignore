@@ -1,0 +1,47 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Archivos de imágenes subidas por usuarios
+/storage/app/public/inmuebles/
+/public/storage/inmuebles/
+
+# Logs personalizados
+/storage/logs/*.log
+
+# Archivos temporales de pruebas
+test_*.ps1
+test_*.sh
+
+# Base de datos SQLite de desarrollo (si se usa)
+*.sqlite
+*.sqlite3
+
+# Archivos de backup
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
